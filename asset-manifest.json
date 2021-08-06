@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/ben-and-jerrys-promos/static/css/main.a617e044.chunk.css",
-    "main.js": "/ben-and-jerrys-promos/static/js/main.6a24501c.chunk.js",
-    "main.js.map": "/ben-and-jerrys-promos/static/js/main.6a24501c.chunk.js.map",
-    "runtime-main.js": "/ben-and-jerrys-promos/static/js/runtime-main.7639a7a9.js",
-    "runtime-main.js.map": "/ben-and-jerrys-promos/static/js/runtime-main.7639a7a9.js.map",
+    "main.js": "/ben-and-jerrys-promos/static/js/main.fa1fa820.chunk.js",
+    "main.js.map": "/ben-and-jerrys-promos/static/js/main.fa1fa820.chunk.js.map",
+    "runtime-main.js": "/ben-and-jerrys-promos/static/js/runtime-main.0eccbcd3.js",
+    "runtime-main.js.map": "/ben-and-jerrys-promos/static/js/runtime-main.0eccbcd3.js.map",
     "static/css/2.983f79de.chunk.css": "/ben-and-jerrys-promos/static/css/2.983f79de.chunk.css",
-    "static/js/2.90714be5.chunk.js": "/ben-and-jerrys-promos/static/js/2.90714be5.chunk.js",
-    "static/js/2.90714be5.chunk.js.map": "/ben-and-jerrys-promos/static/js/2.90714be5.chunk.js.map",
-    "static/js/3.f239b434.chunk.js": "/ben-and-jerrys-promos/static/js/3.f239b434.chunk.js",
-    "static/js/3.f239b434.chunk.js.map": "/ben-and-jerrys-promos/static/js/3.f239b434.chunk.js.map",
+    "static/js/2.488cc4e6.chunk.js": "/ben-and-jerrys-promos/static/js/2.488cc4e6.chunk.js",
+    "static/js/2.488cc4e6.chunk.js.map": "/ben-and-jerrys-promos/static/js/2.488cc4e6.chunk.js.map",
+    "static/js/3.6cfc9ac9.chunk.js": "/ben-and-jerrys-promos/static/js/3.6cfc9ac9.chunk.js",
+    "static/js/3.6cfc9ac9.chunk.js.map": "/ben-and-jerrys-promos/static/js/3.6cfc9ac9.chunk.js.map",
     "index.html": "/ben-and-jerrys-promos/index.html",
     "static/css/2.983f79de.chunk.css.map": "/ben-and-jerrys-promos/static/css/2.983f79de.chunk.css.map",
     "static/css/main.a617e044.chunk.css.map": "/ben-and-jerrys-promos/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.90714be5.chunk.js.LICENSE.txt": "/ben-and-jerrys-promos/static/js/2.90714be5.chunk.js.LICENSE.txt"
+    "static/js/2.488cc4e6.chunk.js.LICENSE.txt": "/ben-and-jerrys-promos/static/js/2.488cc4e6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7639a7a9.js",
+    "static/js/runtime-main.0eccbcd3.js",
     "static/css/2.983f79de.chunk.css",
-    "static/js/2.90714be5.chunk.js",
+    "static/js/2.488cc4e6.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.6a24501c.chunk.js"
+    "static/js/main.fa1fa820.chunk.js"
   ]
 }
