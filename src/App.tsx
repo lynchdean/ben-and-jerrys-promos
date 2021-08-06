@@ -1,64 +1,55 @@
-import React from "react";
+import { isTemplateTail } from "typescript";
 import "./App.css";
+import data from "./data/data.json";
 
 function App() {
+  let tabs: JSX.Element[] = [];
+  let tabContent: JSX.Element[] = [];
+
+  for (var i = 0; i < data.stores.length; i++) {
+    const name = data.stores[i].name;
+    const lowerName = name.toLowerCase();
+    const active = i === 0 ? true : false;
+
+    tabs.push(
+      <li className="nav-item" role="presentation" key={i}>
+        <button
+          className={"nav-link" + (active ? " active" : "")}
+          id={"pills-" + lowerName + "-tab"}
+          data-bs-toggle="pill"
+          data-bs-target={"#pills-" + lowerName}
+          type="button"
+          role="tab"
+          aria-controls={"pills-" + lowerName}
+          aria-selected={active}
+        >
+          {name} ({data.stores[i].items.length})
+        </button>
+      </li>
+    );
+
+    tabContent.push(
+      <div
+        className={"tab-pane fade" + (active ? " show active" : "")}
+        id={"pills-" + lowerName}
+        role="tabpanel"
+        aria-labelledby={"pills-" + lowerName +"-tab"}
+        key={i}
+      >
+        {i}
+      </div>
+    );
+  }
+
   return (
-    <div>
-      <p>We're no strangers to love</p>
-      <p>You know the rules and so do I</p>
-      <p>A full commitment's what I'm thinking of</p>
-      <p>You wouldn't get this from any other guy</p>
-      <p>I just wanna tell you how I'm feeling</p>
-      <p>Gotta make you understand</p>
-      <p>Never gonna give you up</p>
-      <p>Never gonna let you down</p>
-      <p>Never gonna run around and desert you</p>
-      <p>Never gonna make you cry</p>
-      <p>Never gonna say goodbye</p>
-      <p>Never gonna tell a lie and hurt you</p>
-      <p>We've known each other for so long</p>
-      <p>Your heart's been aching but you're too shy to say it</p>
-      <p>Inside we both know what's been going on</p>
-      <p>We know the game and we're gonna play it</p>
-      <p>And if you ask me how I'm feeling</p>
-      <p>Don't tell me you're too blind to see</p>
-      <p>Never gonna give you up</p>
-      <p>Never gonna let you down</p>
-      <p>Never gonna run around and desert you</p>
-      <p>Never gonna make you cry</p>
-      <p>Never gonna say goodbye</p>
-      <p>Never gonna tell a lie and hurt you</p>
-      <p>Never gonna give you up</p>
-      <p>Never gonna let you down</p>
-      <p>Never gonna run around and desert you</p>
-      <p>Never gonna make you cry</p>
-      <p>Never gonna say goodbye</p>
-      <p>Never gonna tell a lie and hurt you</p>
-      <p>Never gonna give, never gonna give</p>
-      <p>(Give you up)</p>
-      <p>We've known each other for so long</p>
-      <p>Your heart's been aching but you're too shy to say it</p>
-      <p>Inside we both know what's been going on</p>
-      <p>We know the game and we're gonna play it</p>
-      <p>I just wanna tell you how I'm feeling</p>
-      <p>Gotta make you understand</p>
-      <p>Never gonna give you up</p>
-      <p>Never gonna let you down</p>
-      <p>Never gonna run around and desert you</p>
-      <p>Never gonna make you cry</p>
-      <p>Never gonna say goodbye</p>
-      <p>Never gonna tell a lie and hurt you</p>
-      <p>Never gonna give you up</p>
-      <p>Never gonna let you down</p>
-      <p>Never gonna run around and desert you</p>
-      <p>Never gonna make you cry</p>
-      <p>Never gonna say goodbye</p>
-      <p>Never gonna tell a lie and hurt you</p>
-      <p>Never gonna give you up</p>
-      <p>Never gonna let you down</p>
-      <p>Never gonna run around and desert you</p>
-      <p>Never gonna make you cry</p>
-      <p>Never gonna say goodbye</p>
+    <div className="container text-center">
+      <h1 className="display-2">Ben and Jerry's Promos</h1>
+      <ul className="nav nav-pills nav-fill" id="pills-tab" role="tablist">
+        {tabs}
+      </ul>
+      <div className="tab-content" id="pills-tabContent">
+        {tabContent}
+      </div>
     </div>
   );
 }

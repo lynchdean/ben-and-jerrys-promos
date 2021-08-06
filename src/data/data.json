@@ -1,0 +1,38 @@
+{
+  "stores": [
+    {
+      "name" :"SuperValu", 
+      "items": [
+        {
+          "name": "Ben & Jerry's Moophoria Chocolate Cookie Dough Ice Cream (465 ml)",
+          "saving": "WAS 6.30, NOW 4.00, SAVE 2.30",
+          "lifetime": "Valid Jul 22nd - Aug 11th",
+          "link": "https://shop.supervalu.ie/shopping/product/1698718000"
+        }
+      ]
+    },
+    {
+      "name": "Tesco",
+      "items" : [
+        {
+          "name": "Ben & Jerry Moophoria Chocolate Cookie Dough Ice Cream 465Ml",
+          "saving": "SAVE 2.30 Was 6.30 Now 4.00 ",
+          "lifetime": "Valid from 13/7/2021 until 9/8/2021",
+          "link": "https://www.tesco.ie/groceries/Product/Details/?id=305943863"
+        },
+        {
+          "name": "Ben & Jerry Salted Caramel Brownie Ice Cream Moophoria 465Ml",
+          "saving": "SAVE 2.30 Was 6.30 Now 4.00 ",
+          "lifetime": "Valid from 13/7/2021 until 9/8/2021",
+          "link": "https://www.tesco.ie/groceries/Product/Details/?id=305974394"
+        },
+        {
+          "name": "Ben And Jerry Moophoria Peanut Butter Cookie Dough 465Ml",
+          "saving": "SAVE 2.20 Was 6.20 Now 4.00 ",
+          "lifetime": "Valid from 13/7/2021 until 9/8/2021",
+          "link": "https://www.tesco.ie/groceries/Product/Details/?id=308087022"
+        }
+      ]
+    }
+  ]
+}
