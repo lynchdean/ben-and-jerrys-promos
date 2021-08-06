@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/template-react/static/css/main.a617e044.chunk.css",
-    "main.js": "/template-react/static/js/main.5d92913d.chunk.js",
-    "main.js.map": "/template-react/static/js/main.5d92913d.chunk.js.map",
-    "runtime-main.js": "/template-react/static/js/runtime-main.d2d501d9.js",
-    "runtime-main.js.map": "/template-react/static/js/runtime-main.d2d501d9.js.map",
-    "static/js/2.c43e6250.chunk.js": "/template-react/static/js/2.c43e6250.chunk.js",
-    "static/js/2.c43e6250.chunk.js.map": "/template-react/static/js/2.c43e6250.chunk.js.map",
-    "static/js/3.1a960419.chunk.js": "/template-react/static/js/3.1a960419.chunk.js",
-    "static/js/3.1a960419.chunk.js.map": "/template-react/static/js/3.1a960419.chunk.js.map",
-    "index.html": "/template-react/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/template-react/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.c43e6250.chunk.js.LICENSE.txt": "/template-react/static/js/2.c43e6250.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/template-react/static/media/logo.6ce24c58.svg"
+    "main.css": "/ben-and-jerrys-promos/static/css/main.a617e044.chunk.css",
+    "main.js": "/ben-and-jerrys-promos/static/js/main.c7773ce2.chunk.js",
+    "main.js.map": "/ben-and-jerrys-promos/static/js/main.c7773ce2.chunk.js.map",
+    "runtime-main.js": "/ben-and-jerrys-promos/static/js/runtime-main.7639a7a9.js",
+    "runtime-main.js.map": "/ben-and-jerrys-promos/static/js/runtime-main.7639a7a9.js.map",
+    "static/css/2.983f79de.chunk.css": "/ben-and-jerrys-promos/static/css/2.983f79de.chunk.css",
+    "static/js/2.617889d2.chunk.js": "/ben-and-jerrys-promos/static/js/2.617889d2.chunk.js",
+    "static/js/2.617889d2.chunk.js.map": "/ben-and-jerrys-promos/static/js/2.617889d2.chunk.js.map",
+    "static/js/3.f239b434.chunk.js": "/ben-and-jerrys-promos/static/js/3.f239b434.chunk.js",
+    "static/js/3.f239b434.chunk.js.map": "/ben-and-jerrys-promos/static/js/3.f239b434.chunk.js.map",
+    "index.html": "/ben-and-jerrys-promos/index.html",
+    "static/css/2.983f79de.chunk.css.map": "/ben-and-jerrys-promos/static/css/2.983f79de.chunk.css.map",
+    "static/css/main.a617e044.chunk.css.map": "/ben-and-jerrys-promos/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.617889d2.chunk.js.LICENSE.txt": "/ben-and-jerrys-promos/static/js/2.617889d2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d2d501d9.js",
-    "static/js/2.c43e6250.chunk.js",
+    "static/js/runtime-main.7639a7a9.js",
+    "static/css/2.983f79de.chunk.css",
+    "static/js/2.617889d2.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.5d92913d.chunk.js"
+    "static/js/main.c7773ce2.chunk.js"
   ]
 }
