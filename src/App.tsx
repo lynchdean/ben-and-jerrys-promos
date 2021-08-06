@@ -1,4 +1,5 @@
 import "./App.css";
+import Item from "./components/item";
 import data from "./data/data.json";
 
 function App() {
@@ -6,6 +7,8 @@ function App() {
   let tabContent: JSX.Element[] = [];
 
   for (var i = 0; i < data.stores.length; i++) {
+    let tabContentItems: JSX.Element[] = [];
+
     const name = data.stores[i].name;
     const lowerName = name.toLowerCase();
     const active = i === 0 ? true : false;
@@ -27,15 +30,26 @@ function App() {
       </li>
     );
 
+    for (let item of data.stores[i].items) {
+      tabContentItems.push(
+        <Item
+          title={item.name}
+          link={item.link}
+          saving={item.saving}
+          lifetime={item.lifetime}
+        />
+      );
+    }
+
     tabContent.push(
       <div
         className={"tab-pane fade" + (active ? " show active" : "")}
         id={"pills-" + lowerName}
         role="tabpanel"
-        aria-labelledby={"pills-" + lowerName +"-tab"}
+        aria-labelledby={"pills-" + lowerName + "-tab"}
         key={i}
       >
-        {i}
+        {tabContentItems}
       </div>
     );
   }
