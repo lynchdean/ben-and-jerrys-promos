@@ -1,5 +1,5 @@
 import "./App.css";
-import Item from "./components/item";
+import ItemCard from "./components/ItemCard";
 import data from "./data/data.json";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     const active = i === 0 ? true : false;
 
     tabs.push(
-      <li className="nav-item" role="presentation" key={i}>
+      <li className="nav-item" role="presentation" key={"nav" + i}>
         <button
           className={"nav-link" + (active ? " active" : "")}
           id={"pills-" + lowerName + "-tab"}
@@ -32,11 +32,12 @@ function App() {
 
     for (let item of data.stores[i].items) {
       tabContentItems.push(
-        <Item
+        <ItemCard
           title={item.name}
           link={item.link}
           saving={item.saving}
           lifetime={item.lifetime}
+          key={item.name + i}
         />
       );
     }
@@ -47,7 +48,7 @@ function App() {
         id={"pills-" + lowerName}
         role="tabpanel"
         aria-labelledby={"pills-" + lowerName + "-tab"}
-        key={i}
+        key={"tab"+i}
       >
         {tabContentItems}
       </div>
