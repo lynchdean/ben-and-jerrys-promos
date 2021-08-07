@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ben-and-jerrys-promos/static/css/main.a617e044.chunk.css",
-    "main.js": "/ben-and-jerrys-promos/static/js/main.4223abf4.chunk.js",
-    "main.js.map": "/ben-and-jerrys-promos/static/js/main.4223abf4.chunk.js.map",
+    "main.js": "/ben-and-jerrys-promos/static/js/main.6960b2f8.chunk.js",
+    "main.js.map": "/ben-and-jerrys-promos/static/js/main.6960b2f8.chunk.js.map",
     "runtime-main.js": "/ben-and-jerrys-promos/static/js/runtime-main.2f2b7895.js",
     "runtime-main.js.map": "/ben-and-jerrys-promos/static/js/runtime-main.2f2b7895.js.map",
     "static/css/2.983f79de.chunk.css": "/ben-and-jerrys-promos/static/css/2.983f79de.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.983f79de.chunk.css",
     "static/js/2.bcd916da.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.4223abf4.chunk.js"
+    "static/js/main.6960b2f8.chunk.js"
   ]
 }
