@@ -55,7 +55,7 @@ def update_tesco(kws, collection):
 
 
 def get_database(name, user, pw, cluster):
-    CONNECTION_STRING = f'mongodb+srv://{user}:{pw}@{cluster}.mongodb.net/Shops'
+    CONNECTION_STRING = f"mongodb+srv://{user}:{pw}@{cluster.lower()}.dttgr.mongodb.net/{cluster}?retryWrites=true&w=majority"
     client = MongoClient(CONNECTION_STRING)
     return client[name]
 
