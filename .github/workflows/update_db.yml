@@ -27,4 +27,4 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run update_db
       run: |
-        python update_db.py ${{ USER }} ${{ PASSWORD }} ${{ CLUSTER }}
+        python update_db.py ${{ secrets.USER }} ${{ secrets.PASSWORD }} secrets.${{ CLUSTER }}
