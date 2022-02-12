@@ -1,3 +1,5 @@
+import sys
+
 import requests
 from bs4 import BeautifulSoup
 from pymongo import MongoClient
@@ -52,8 +54,8 @@ def update_tesco(kws, collection):
     print("Updated Tesco collection in MongoDB.")
 
 
-def get_database(name):
-    CONNECTION_STRING = "mongodb+srv://<username>:<password>@<cluster-name>.mongodb.net/myFirstDatabase"
+def get_database(name, user, pw, cluster):
+    CONNECTION_STRING = f'mongodb+srv://{user}:{pw}@<cluster-name>.mongodb.net/{cluster}'
     client = MongoClient(CONNECTION_STRING)
     return client[name]
 
@@ -61,7 +63,7 @@ def get_database(name):
 if __name__ == '__main__':
     kws = ["Ben", "Jerry", "465"]
 
-    db = get_database('Shops')
+    db = get_database('Shops', sys.argv[1], sys.argv[2], sys.argv[3])
 
     update_tesco(kws, db["Tesco"])
     update_supervalu(kws, db["SuperValu"])
