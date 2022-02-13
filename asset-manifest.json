@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ben-and-jerrys-promos/static/css/main.837a15f0.css",
-    "main.js": "/ben-and-jerrys-promos/static/js/main.1b47bad5.js",
+    "main.js": "/ben-and-jerrys-promos/static/js/main.947f6b81.js",
     "static/js/787.fbc9e7b0.chunk.js": "/ben-and-jerrys-promos/static/js/787.fbc9e7b0.chunk.js",
     "index.html": "/ben-and-jerrys-promos/index.html",
     "main.837a15f0.css.map": "/ben-and-jerrys-promos/static/css/main.837a15f0.css.map",
-    "main.1b47bad5.js.map": "/ben-and-jerrys-promos/static/js/main.1b47bad5.js.map",
+    "main.947f6b81.js.map": "/ben-and-jerrys-promos/static/js/main.947f6b81.js.map",
     "787.fbc9e7b0.chunk.js.map": "/ben-and-jerrys-promos/static/js/787.fbc9e7b0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.837a15f0.css",
-    "static/js/main.1b47bad5.js"
+    "static/js/main.947f6b81.js"
   ]
 }
