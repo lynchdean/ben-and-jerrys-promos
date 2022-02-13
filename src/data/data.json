@@ -1,115 +1,85 @@
 {
   "stores": [
     {
-      "name" :"SuperValu", 
+      "name": "Tesco",
       "items": [
         {
-          "name": "Ben & Jerry's Netflix & Chill'd Ice Cream (465 ml)",
+          "name": "Ben & Jerry's Moophoria Chocolate Cookie Dough Ice Cream (465 ml)",
           "saving": "WAS 6.30, NOW 4.00, SAVE 2.30",
-          "lifetime": "Valid Aug 12th - Sep 1st",
-          "link": "https://shop.supervalu.ie/shopping/product/1698174006"
-      },
-      {
-          "name": "Ben & Jerry's Cookie Dough Ice Cream (465 ml)",
-          "saving": "WAS 6.59, NOW 4.00, SAVE 2.59",
-          "lifetime": "Valid Aug 12th - Sep 1st",
-          "link": "https://shop.supervalu.ie/shopping/product/1698174001"
-      },
-      {
-          "name": "Ben & Jerry's Phish Food Ice Cream (465 ml)",
-          "saving": "WAS 6.59, NOW 4.00, SAVE 2.59",
-          "lifetime": "Valid Aug 12th - Sep 1st",
-          "link": "https://shop.supervalu.ie/shopping/product/1698174003"
-      },
-      {
-          "name": "Ben & Jerry's Caramel Chew Chew Ice Cream (465 ml)",
-          "saving": "WAS 6.59, NOW 4.00, SAVE 2.59",
-          "lifetime": "Valid Aug 12th - Sep 1st",
-          "link": "https://shop.supervalu.ie/shopping/product/1698174000"
-      },
-      {
-          "name": "Ben & Jerry's Chocolate Fudge Brownie Ice Cream (465 ml)",
-          "saving": "WAS 6.59, NOW 4.00, SAVE 2.59",
-          "lifetime": "Valid Aug 12th - Sep 1st",
-          "link": "https://shop.supervalu.ie/shopping/product/1698174004"
-      },
-      {
-          "name": "Ben & Jerry's Rain-dough Cookie Dough Twist Ice Cream (465 ml)",
-          "saving": "WAS 6.59, NOW 4.00, SAVE 2.59",
-          "lifetime": "Valid Aug 12th - Sep 1st",
-          "link": "https://shop.supervalu.ie/shopping/product/1754369000"
-      },
-      {
-          "name": "Ben & Jerry's Dough-ble Chocolate Cookie Dough Twist Ice Cream (465 ml)",
-          "saving": "WAS 6.59, NOW 4.00, SAVE 2.59",
-          "lifetime": "Valid Aug 12th - Sep 1st",
-          "link": "https://shop.supervalu.ie/shopping/product/1754571000"
-      }
+          "lifetime": "Valid Feb 10th - Mar 2nd",
+          "link": "https://shop.supervalu.ie/shopping/product/1698718000"
+        }
       ]
     },
     {
-      "name": "Tesco",
-      "items" : [
+      "name": "SuperValu",
+      "items": [
+        {
+          "name": "Ben And Jerry's Cookie Dough Vanilla Ice Cream 465Ml",
+          "saving": "SAVE 2.29 Was 6.29 Now 4.00 ",
+          "lifetime": "Valid from 25/1/2022 until 21/2/2022",
+          "link": "https://www.tesco.ie/groceries/Product/Details/?id=305955388"
+        },
+        {
+          "name": "Ben And Jerry's Minter Wonderland Mint Ice Cream 465Ml",
+          "saving": "SAVE 2.30 Was 6.30 Now 4.00 ",
+          "lifetime": "Valid from 25/1/2022 until 21/2/2022",
+          "link": "https://www.tesco.ie/groceries/Product/Details/?id=307348672"
+        },
         {
           "name": "Ben And Jerry's Caramel Chew Chew Ice Cream 465Ml",
           "saving": "SAVE 2.29 Was 6.29 Now 4.00 ",
-          "lifetime": "Valid from 10/8/2021 until 6/9/2021",
+          "lifetime": "Valid from 25/1/2022 until 21/2/2022",
           "link": "https://www.tesco.ie/groceries/Product/Details/?id=305968091"
-      },
-      {
-          "name": "Ben And Jerry's Chocolate Fudge Brownie Ice Cream 465Ml",
-          "saving": "SAVE 2.29 Was 6.29 Now 4.00 ",
-          "lifetime": "Valid from 10/8/2021 until 6/9/2021",
-          "link": "https://www.tesco.ie/groceries/Product/Details/?id=305980150"
-      },
-      {
-          "name": "Ben And Jerry's Peanut Butter Cup Ice Cream 465Ml",
-          "saving": "SAVE 2.29 Was 6.29 Now 4.00 ",
-          "lifetime": "Valid from 10/8/2021 until 6/9/2021",
-          "link": "https://www.tesco.ie/groceries/Product/Details/?id=305947489"
-      },
-      {
-          "name": "Ben & Jerry Sofa So Good Together Caramel And Chocolate Ice Cream 465Ml",
-          "saving": "SAVE 2.29 Was 6.29 Now 4.00 ",
-          "lifetime": "Valid from 10/8/2021 until 6/9/2021",
-          "link": "https://www.tesco.ie/groceries/Product/Details/?id=305942392"
-      },
-      {
-          "name": "Ben & Jerry Rain-Dough Cookie Dough Twist Ice Cream 465Ml",
-          "saving": "SAVE 2.20 Was 6.20 Now 4.00 ",
-          "lifetime": "Valid from 10/8/2021 until 6/9/2021",
-          "link": "https://www.tesco.ie/groceries/Product/Details/?id=308079061"
-      },
-      {
-          "name": "Ben & Jerry Dough-Ble Chocolate Ckie/Dgh Twist Ice Cream 465Ml",
-          "saving": "SAVE 2.20 Was 6.20 Now 4.00 ",
-          "lifetime": "Valid from 10/8/2021 until 6/9/2021",
-          "link": "https://www.tesco.ie/groceries/Product/Details/?id=308102691"
-      },
-      {
-          "name": "Ben & Jerry Phish Food Chocolate And Marshmallow Ice Cream 465Ml",
-          "saving": "SAVE 2.29 Was 6.29 Now 4.00 ",
-          "lifetime": "Valid from 10/8/2021 until 6/9/2021",
-          "link": "https://www.tesco.ie/groceries/Product/Details/?id=305941986"
-      },
-      {
+        },
+        {
           "name": "Ben & Jerry's Netflix And Chilld Ice Cream 465Ml",
           "saving": "SAVE 2.39 Was 6.39 Now 4.00 ",
-          "lifetime": "Valid from 10/8/2021 until 6/9/2021",
+          "lifetime": "Valid from 25/1/2022 until 21/2/2022",
           "link": "https://www.tesco.ie/groceries/Product/Details/?id=305519312"
-      },
-      {
-          "name": "Ben And Jerry's Cookie Dough Vanilla Ice Cream 465Ml",
-          "saving": "SAVE 2.29 Was 6.29 Now 4.00 ",
-          "lifetime": "Valid from 10/8/2021 until 6/9/2021",
-          "link": "https://www.tesco.ie/groceries/Product/Details/?id=305955388"
-      },
-      {
+        },
+        {
+          "name": "Ben & Jerry Dough-Ble Chocolate Ckie/Dgh Twist Ice Cream 465Ml",
+          "saving": "SAVE 2.20 Was 6.20 Now 4.00 ",
+          "lifetime": "Valid from 25/1/2022 until 21/2/2022",
+          "link": "https://www.tesco.ie/groceries/Product/Details/?id=308102691"
+        },
+        {
+          "name": "Ben & Jerry Caramel Brownie Party Ice Cream 465Ml",
+          "saving": "SAVE 2.30 Was 6.30 Now 4.00 ",
+          "lifetime": "Valid from 25/1/2022 until 21/2/2022",
+          "link": "https://www.tesco.ie/groceries/Product/Details/?id=310144275"
+        },
+        {
           "name": "Ben And Jerry's Baked Alaska Vanilla Ice Cream 465Ml",
           "saving": "SAVE 2.29 Was 6.29 Now 4.00 ",
-          "lifetime": "Valid from 10/8/2021 until 6/9/2021",
+          "lifetime": "Valid from 25/1/2022 until 21/2/2022",
           "link": "https://www.tesco.ie/groceries/Product/Details/?id=305949505"
-      }
+        },
+        {
+          "name": "Ben & Jerry Rain-Dough Cookie Dough Twist Ice Cream 465Ml",
+          "saving": "SAVE 2.20 Was 6.20 Now 4.00 ",
+          "lifetime": "Valid from 25/1/2022 until 21/2/2022",
+          "link": "https://www.tesco.ie/groceries/Product/Details/?id=308079061"
+        },
+        {
+          "name": "Ben & Jerry Phish Food Chocolate And Marshmallow Ice Cream 465Ml",
+          "saving": "SAVE 2.29 Was 6.29 Now 4.00 ",
+          "lifetime": "Valid from 25/1/2022 until 21/2/2022",
+          "link": "https://www.tesco.ie/groceries/Product/Details/?id=305941986"
+        },
+        {
+          "name": "Ben And Jerry's Chocolate Fudge Brownie Ice Cream 465Ml",
+          "saving": "SAVE 2.29 Was 6.29 Now 4.00 ",
+          "lifetime": "Valid from 25/1/2022 until 21/2/2022",
+          "link": "https://www.tesco.ie/groceries/Product/Details/?id=305980150"
+        },
+        {
+          "name": "Ben And Jerry's Peanut Butter Cup Ice Cream 465Ml",
+          "saving": "SAVE 2.29 Was 6.29 Now 4.00 ",
+          "lifetime": "Valid from 25/1/2022 until 21/2/2022",
+          "link": "https://www.tesco.ie/groceries/Product/Details/?id=305947489"
+        }
       ]
     }
   ]
