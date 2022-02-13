@@ -1,8 +1,6 @@
-import sys
-
 import requests
+import json
 from bs4 import BeautifulSoup
-from pymongo import MongoClient
 
 
 def get_soup(url):
@@ -10,7 +8,7 @@ def get_soup(url):
     return BeautifulSoup(r.text, 'lxml')
 
 
-def update_supervalu(kws, collection):
+def get_supervalu(kws):
     soup = get_soup(
         "https://shop.supervalu.ie/shopping/search/allaisles?q=Ben%20%20Jerrys%20Ice%20Cream%20465%20ml&page=1")
     search_all = soup.find("div", id="search-all-aisles-listings-view")
@@ -27,12 +25,10 @@ def update_supervalu(kws, collection):
                            "lifetime": lifetime,
                            "link": item.find("a")['href']}
                 products.append(product)
-    collection.delete_many({})
-    collection.insert_many(products)
-    print("Updated SuperValu collection in MongoDB.")
+    return {"name": "Tesco", "items": products}
 
 
-def update_tesco(kws, collection):
+def get_tesco(kws):
     soup = get_soup(
         "https://www.tesco.ie/groceries/product/search/default.aspx?searchBox=ben&originalSearchTerm=freetext&Nao=0")
     product_list = soup.find("ul", class_="products")
@@ -49,23 +45,18 @@ def update_tesco(kws, collection):
                            "lifetime": "Valid" + split[1],
                            "link": "https://www.tesco.ie" + heading.find("a")['href']}
                 products.append(product)
-    collection.delete_many({})
-    collection.insert_many(products)
-    print("Updated Tesco collection in MongoDB.")
-
-
-def get_database(name, user, pw, cluster):
-    CONNECTION_STRING = f"mongodb+srv://{user}:{pw}@{cluster.lower()}.dttgr.mongodb.net/{cluster}?retryWrites=true&w=majority"
-    client = MongoClient(CONNECTION_STRING)
-    return client[name]
+    return {"name": "SuperValu", "items": products}
 
 
 if __name__ == '__main__':
     kws = ["Ben", "Jerry", "465"]
-
-    db = get_database('Shops', sys.argv[1], sys.argv[2], sys.argv[3])
-
-    update_tesco(kws, db["Tesco"])
-    update_supervalu(kws, db["SuperValu"])
+    supervalu = get_supervalu(kws)
+    tesco = get_tesco(kws)
     # TODO Add Dunnes
-    print("Done.")
+
+    data = {
+        "stores": [supervalu, tesco]
+    }
+
+    with open('src/data/data.json', 'w') as f:
+        f.write(json.dumps(data, indent=2))
